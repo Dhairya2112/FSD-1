@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <style>
+        /* ul>b child works when b is the direct 1st child inside ul */
+        ul>b {
+            font: size 20px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><b>abc</b></li>
+        <li>xyz</li>
+        <b>
+            <li>pqr</li>
+        </b>
+        <li><b><i>mno</i></b></li>
+    </ul>
+</body>
+
+</html>
