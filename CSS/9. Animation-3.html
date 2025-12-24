@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <style>
+        @keyframes demo {
+            0% {
+                background-color: red;
+                top: 0px;
+                left: 0px;
+
+            }
+
+            50% {
+                background-color: yellow;
+                top: 200px;
+                left: 200px;
+                transform: rotate(1000deg);
+                border-radius: 100%;
+            }
+
+            100% {
+                background-color: blue;
+                top: 0px;
+                left: 400px;
+            }
+        }
+
+        div {
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: cyan;
+            animation-name: demo;
+            animation-duration: 3s;
+            animation-delay: 0s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>
