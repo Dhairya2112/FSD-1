@@ -1,9 +1,0 @@
-<meta name="viewport" content ="width=device-width,initial-scale=1.0">
-
-@media not/only mediatype and (mediafeature) and/or (mediafeature) and/or (mediafeature){
-    css-rule
-}
-
-@media screen and (max-width:400px){
-    body{background-color:orange}
-}
